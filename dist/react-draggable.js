@@ -1566,7 +1566,7 @@
 	    }, _this.handleDrag = function (e) {
 
 	      // Prevent scrolling on mobile devices, like ipad/iphone.
-	      if (e.type === 'touchmove') e.preventDefault();
+	      // if (e.type === 'touchmove') e.preventDefault();
 
 	      // Get the current drag point from the event. This is used as the offset.
 	      var position = getControlPosition(e, _this.state.touchIdentifier, _this);
