@@ -1564,7 +1564,6 @@
 	      addEvent(ownerDocument, dragEventFor.move, _this.handleDrag);
 	      addEvent(ownerDocument, dragEventFor.stop, _this.handleDragStop);
 	    }, _this.handleDrag = function (e) {
-	      console.log(e);
 	      // Prevent scrolling on mobile devices, like ipad/iphone.
 	      // if (e.type === 'touchmove') e.preventDefault();
 
